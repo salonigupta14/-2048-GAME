@@ -15,7 +15,7 @@
 #include <stack>
 #include <vector>
 using namespace std;
- 
+ #define ll long long
 void up(long long int arrarrary[])
 {
     for (long long int i = 0; i < 3; ++i)
