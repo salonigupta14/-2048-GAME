@@ -25,7 +25,7 @@ void up(long long int arrarrary[])
             if (arrarrary[3*j+i])
             {
                 long long int start=i+3*j+3;
-                while(true)
+                while(!false)
                 {
                     if (arrarrary[start])
                     {
