@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include "cstdlib"
 #include "iostream"
-#include "cstring"
+#include "cstring";
 #include <ncurses.h>
 #include <stack>
 #include <vector>
@@ -77,7 +77,7 @@ void down(long long int *arrarrary)
                 {
                     if (arrarrary[start])
                     {
-                        if (arrarrary[start]==arrarrary[cur])
+                        if (arrarrary[start]==arrarrary[curr])
                         {
                             arrarrary[cur]*=2;
                             arrarrary[start]=0;
